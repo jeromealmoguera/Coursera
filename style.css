@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.head1 {
+  text-align: center;
+  font-family: "Gotham";
+  /* font-weight: 500; */
+  font-size: 50px;
+}
+
+.head2 {
+  text-align: center;
+  font-family: "Gotham";
+  font-size: 150px;
+  margin-top: -60px;
+  font-weight: 300;
+}
+
+.davis {
+}
+
+hr {
+  width: 70%;
+  border-color: black;
+  border-width: 1px;
+}
+
+/** RATING **/
+
+.rate {
+  font-family: "Gotham";
+  margin-left: 500px;
+  text-align: left;
+}
+
+.head3 {
+  text-align: center;
+  font-family: "Gotham";
+  font-size: 30px;
+}
+
+.para {
+  font-size: 15px;
+}
+
+.btn {
+  font-family: "Gotham";
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(77, 171, 253);
+  padding: 5px 10px 5px 10px;
+}

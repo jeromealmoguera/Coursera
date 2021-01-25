@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="java.js"></script>
+    <title>Thank You</title>
+  </head>
+  <body>
+    <img src="ty.jpg" />
+    <h1 class="head1">THANK YOU</h1>
+    <br />
+    <h1 class="head2">UC <strong class="davis">DAVIS</strong></h1>
+    <hr />
+    <h2 class="head3">Please rate this course</h2>
+
+    <div class="rate">
+      <form>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" />
+
+        <br />
+        <br />
+
+        <p><strong>Gender:</strong></p>
+
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+
+        <br />
+        <br />
+
+        <p><strong>What device are you using:</strong></p>
+
+        <input type="checkbox" id="device1" name="device1" value="Desktop" />
+        <label for="device1"> Desktop</label><br />
+        <input type="checkbox" id="device2" name="device2" value="Laptop" />
+        <label for="device2"> Laptop</label><br />
+        <input
+          type="checkbox"
+          id="device3"
+          name="device3"
+          value="Mobile Phone"
+        />
+        <label for="device3"> Mobile Phone</label>
+
+        <p class="para">Rate a number 1 to 10:</p>
+
+        <input id="numb" />
+
+        <button class="btn" type="button" onclick="myFunction()">Submit</button>
+
+        <p id="demo"></p>
+      </form>
+    </div>
+  </body>
+</html>
