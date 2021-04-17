@@ -1,1 +1,3 @@
 # Coursera
+
+Pasasalamat sa Coursera!
